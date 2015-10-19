@@ -169,7 +169,6 @@ class BaseController
         return preg_match("/^[0-9]{3}$/", $cvv2) ? true : false;
     }
 
-
     /**
      * Validate all fields for credit card
      *
@@ -194,7 +193,6 @@ class BaseController
 
         return $request;
     }
-
 
     /**
      * Handler for credit card xml data
